@@ -1,0 +1,47 @@
+.menu_principe>.container div#block-desktech-site-branding {
+    width: 40%;
+}
+div#block-desktech-site-branding--2 img {
+    width: 192px;
+}
+.social-icons a i span {
+    display: none;
+}
+section#contact--nous .contact-webform label {
+    display: none;
+}
+.svg__vertical_sc {
+    top: -60px;
+}
+.contact-produits-et-services-desktech form  .js-form-type-checkbox label {
+    display: block !important;
+}
+.contact-produits-et-services-desktech form  >div > label {
+    display: none !important;
+}
+.contact-produits-et-services-desktech form div#edit-processed-text label {
+    color: #fff;
+}
+.contact-produits-et-services-desktech form .js-form-type-checkbox {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.contact-produits-et-services-desktech form .js-form-type-checkbox input {
+    height: 40px;
+    width: 40px;
+}
+.contact-produits-et-services-desktech form .js-form-type-checkbox label {
+    width: 100%;
+}
+
+.contact-produits-et-services-desktech form > div#edit-actions {
+    width: 25%;
+}
+.img--all-blog img {
+    width: 226px;
+    height: 226px;
+    object-fit: contain;
+}

@@ -1,0 +1,439 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../webfonts/Roboto-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../webfonts/NunitoSans-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../webfonts/Inter-Regular.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "montserrat Bold";
+  src: url("../webfonts/montserrat/Montserrat-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nunito italic";
+  src: url("../webfonts/nunito/Nunito-Italic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nunito regular";
+  src: url("../webfonts/nunito/Nunito-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "cairo bold";
+  src: url("../webfonts/cairo/cairo-Bold.ttf");
+  font-display: swap;
+}
+
+
+
+a:hover {
+  text-decoration: none;
+  color: #335AB7;
+  transition: all .25s ease-in-out;
+}
+
+span,
+select {
+  font-family: "Averta CY";
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Averta CY";
+}
+
+/*  */
+.banner_tp .banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper--banner {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper--banner h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Krona One";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 69px;
+  /* 86.25% */
+  letter-spacing: -3.2px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.wrapper--banner p {
+  color: #FFF;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 140% */
+}
+
+section.banner_tp {
+  position: relative;
+}
+
+/*  */
+
+.activity-text p {
+  color: #11131A;
+  font-family: "Kumbh Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 164.706% */
+  width: 660px;
+}
+
+.activity-text h3 {
+  color: #11131A;
+  font-family: "Krona One";
+  font-size: 44.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53.6px;
+  /* 121.267% */
+  letter-spacing: -3.2px;
+  text-transform: uppercase;
+}
+
+.activities-section {
+  background-image: url(/../assets/images/after--rep.png);
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.activity-box .activity-content {
+  filter: drop-shadow(0px 4px 152.4px rgba(88, 107, 109, 0.32));
+  background: #fff;
+  width: 75%;
+  height: 350px;
+  box-shadow: 0px 4px 152.4px rgba(88, 107, 109, 0.32);
+  justify-content: center;
+  padding: 0 40px;
+}
+.activity-box:nth-child(even) .activity-content .activity-text {
+    text-align: right;
+}
+
+.activity-text p {
+    width: auto;
+}
+.activity-box .activity-content {
+  display: flex;
+  gap: 0 20px;
+}
+
+.activity-content {
+  display: flex;
+  align-items: center;
+}
+
+
+.activity-image {
+  height: auto;
+  width: 302px;
+}
+
+.activity-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.activity-text {
+  width: 60%;
+}
+
+.activity-box:nth-child(even) .activity-content {
+  flex-direction: row-reverse;
+}
+
+.activity-box:nth-child(even) .activity-content {
+  margin-left: auto;
+}
+
+section.activities-section {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.activity-box .activity-content:after {
+  content: "";
+  width: 203px;
+  height: 100%;
+  background-image: url(/../assets/images/wrap.png);
+  background-size: 100% 100%;
+  z-index: 9;
+  position: absolute;
+  right: -178px;
+  background-repeat: no-repeat;
+}
+
+.activity-content {
+  position: relative;
+}
+
+.activity-box:nth-child(even) .activity-content:after {
+  content: "";
+  width: 203px;
+  height: 100%;
+  background-image: url(/../assets/images/wrap.png);
+  background-size: 100% 100%;
+  z-index: 9;
+  position: absolute;
+  left: -178px;
+  right: auto;
+  transform: scaleX(-1);
+  background-repeat: no-repeat;
+}
+.activity-text h5 {
+    color: #11131A;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.activity-text h5 {
+    color: #11131A;
+    font-family: "Krona One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 75% */
+    text-transform: uppercase;
+}
+
+section.activities-artistique {}
+
+section.activities-artistique .activity-text {
+    width: 100%;
+}
+
+section.activities-artistique {}
+
+section.activities-artistique .activity-image {
+    width: 35%;
+    height: auto;
+}
+
+section.activities-artistique .activity-text {
+    width: 65%;
+    padding: 0 30px 0 5px;
+    text-align: justify;
+}
+
+section.activities-artistique .activity-content {
+    gap: 30px;
+    border-radius: 0px 50px 50px 0px;
+    background: #FFF;
+    box-shadow: 0px 4px 43.3px 0px rgba(135, 193, 218, 0.25);
+}
+
+.activity-box-wr {
+    margin-bottom: 35px;
+}
+
+.activity-box-wr:last-child {
+    margin-bottom: 0;
+}
+
+section.activities-artistique {
+    padding: 40px 0;
+}
+
+
+.activity-box-wr h3 {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.activity-box-wr p {
+    margin-bottom: 0;
+    /* font-size: 16px; */
+}
+.link__dw {
+    display: inline-flex;
+    padding: 18px 0px 16px 0px;
+    align-items: center;
+    background: #FF9200;
+}
+
+.link__dw a {
+    color: #11131A;
+    text-align: center;
+    font-family: "Krona One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    padding: 0 30px;
+}
+.container-utiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container-utiles >div {
+    border-radius: 0px 50px 50px 0px;
+    background: #FFF;
+    box-shadow: 0px 4px 43.3px 0px rgba(135, 193, 218, 0.25);
+    height: 100%;
+}
+.container-utiles >div:last-child {
+    border-radius: 50px 0 0 50px;
+}
+
+.container-utiles >div {
+    padding: 40px 60px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+section.activities-utiles {
+    padding: 40px 0;
+}
+.access-info p {
+    margin-bottom: 0.5rem;
+}
+.container-utiles {
+    gap: 0 30px;
+}
+
+.utiles--right ul {
+    margin: 30px 0;
+}
+
+.link__dw {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.container-utiles >div:last-child {
+    justify-content: flex-start;
+}
+.container-utiles h2 {
+    color: #11131A;
+    font-family: "Krona One";
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53.6px; /* 121.267% */
+    letter-spacing: -3.2px;
+    text-transform: uppercase;
+}
+section.activities-utiles.activities-utiles-village {}
+
+section.activities-utiles.activities-utiles-village .utiles--left {
+    padding: 0;
+}
+
+section.activities-utiles.activities-utiles-village .utiles--left >div {
+    /* width: 50%; */
+}
+
+section.activities-utiles.activities-utiles-village >div>div {
+    width: 48%;
+    height: auto;
+}
+
+section.activities-utiles.activities-utiles-village .utiles--left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+}
+.container-utiles:first-child {
+    margin-bottom: 40px;
+}
+
+.container-utiles:last-child .utiles--left img {
+    border-radius: 50px 0 0 50px !important;
+}
+.utiles--left >div {
+    color: #11131A;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+}
+
+
+.utiles--right h4 {
+    color: #11131A;
+    font-family: "Krona One";
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53.6px; /* 121.267% */
+    letter-spacing: -3.2px;
+    text-transform: uppercase;
+}
+
+.utiles--right ul {
+    color: #11131A;
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+}
+
+.access-info {}
+
+.utiles--left p {
+    margin-bottom: 4px;
+}

@@ -1,3 +1,58 @@
 @media (max-width: 991px) {
+section.banner_tp .banner {
+    height: 600px;
+}
 
+section.banner_tp {}
+
+.wrapper--banner {
+    width: 100%;
+    padding: 20px;
+}
+
+body,html {
+    overflow-x: hidden;
+}
+
+section.banner_tp .banner img {
+    object-fit: cover;
+}
+
+.wrapper--banner h2 {
+    font-size: 40px;
+    line-height: normal;
+}
+
+.activity-box .activity-content {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.activity-box .activity-content:after {
+    display: none;
+}
+
+.activity-image {
+    width: auto;
+}
+
+.activity-text {
+    width: 100%;
+}
+
+.activity-text h3 {
+    font-size: 31px;
+    line-height: normal;
+}
+
+.activity-box:nth-child(even) .activity-content {flex-direction: column;text-align: left;gap: 20px 0;}
+
+.activity-box:nth-child(even) .activity-content .activity-text {
+    text-align: left;
+}
+
+.activity-box .activity-content {
+    padding: 30px 30px;
+}
 }

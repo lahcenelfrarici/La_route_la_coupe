@@ -572,3 +572,6 @@ section.activities-utiles.activities-utiles-village .utiles--left img {
     border-bottom: 1px solid rgba(17, 19, 26, 0.20);
     padding-bottom: 14px;
 }
+section.activities-utiles.activities-utiles-village.contactez-ns .utiles--left img {
+    border-radius: 0px 50px 50px 0px !important;
+}
